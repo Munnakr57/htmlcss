@@ -1,0 +1,501 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'playfair display', serif;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* header start */
+.header{
+    background: rgb(25,25,25);
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+.menu li{
+    color: white;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    border-bottom:3px solid transparent;
+}
+.menu li:hover{
+    border-bottom:3px solid white;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctaBtn{
+    background: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius:20rem;
+    cursor: pointer;
+}
+
+/* header end */
+
+
+/* hero section start */
+
+.hero{
+    background-image: url("../images/banner.jpg");
+    height:100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20rem;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    
+}
+.hero::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+
+}
+.heroTitle{
+    font-size:5.6rem;
+    color: white;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.heroPara{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    position: relative;
+}
+/* hero section end */
+
+
+
+/* card section start */
+#interdum{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem 2rem; 
+   
+
+}
+.main .title{
+font-size: 2rem;
+font-weight: 500;
+color: rgb(39,39,39);
+text-align: center;
+margin-bottom: 0.8rem;
+
+}
+.main .paragraph{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(81,81,81);
+    letter-spacing: 1px;
+    text-align: center;  
+    margin-bottom: 3rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6em;
+ 
+}
+.cards{
+  
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 0 auto;
+}
+.card{
+    margin: 1rem;
+   
+    
+}
+.cardImg{
+    object-fit: cover;
+    width: 25rem;
+   height: 20rem;
+
+}
+.cardTitle{
+    
+    color: rgb(39,39,39);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.price{
+    color:rgb(0,61,93);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.cardBtn{
+  border:2px solid  rgb(0,61,93);
+  background: white;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color:rgb(0,61,93);
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+
+}
+.cardBtn:hover{
+  background: rgb(0,61,93);
+  color: white; 
+}
+
+.cardBtn2{
+    border:2px solid  rgb(0,61,93);
+    background: white;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(0,61,93);
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;  
+   
+
+}
+.cardBtn2:hover{
+    background: rgb(0,61,93);
+  color: white;  
+}
+.singleBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /* margin-top: 1rem;   */
+}
+.shadow{
+    box-shadow: 0 1px 5px rgb(25,25,25, 0.4);
+    
+}
+/* card section end */
+
+
+/* contact section :start */
+
+.lastsection{
+    background: #f1f1f1;
+    margin: 20rem auto;
+    height: auto;
+    width: 100vw;
+    padding: 3rem 2rem; 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+   
+    
+}
+.portfolio{
+    padding: 0 15px;
+    width: 50%;
+}
+.portfolioImg{
+    object-fit: cover;
+    width: 22rem;
+   height: 16rem; 
+}
+.contactpage{
+    width: 50%;
+    padding: 0 15px;
+}
+.portfolioTitle{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.portfolioDesc{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(81,81,81);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6em;
+}
+
+.copyright{
+    color: rgb(176,176,176);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.contactpage{
+    background: rgb(0,61,93);
+    padding: 3rem;
+}
+.formTitle{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400; 
+    color: white;
+    margin-bottom: 3rem;
+}
+label{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#name, #email, #phone{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+#massage{
+    width: 100%;
+    height: 20vh;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem; 
+}
+.submit{
+    border:2px solid white;
+    background: rgb(0,61,93);
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;    
+}
+@media screen and (max-width:500px) {
+    .hero{
+        background-image: url("../images/banner.jpg");
+        height:60vh;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        position: relative;
+        
+    }
+    .heroTitle{
+        font-size:2rem;
+        color: white;
+        font-weight: 300;
+        line-height: 1.1em;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+    
+    .heroPara{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        position: relative;
+    } 
+
+    #interdum{
+        margin: 0 auto;
+        height: 50vh;
+        width: 100vw;
+        padding: 30px 15px;
+
+       
+    
+    }
+    .main .title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(39,39,39);
+    text-align: center;
+    margin-bottom: 0.8rem;
+    
+    }
+    .main{
+        padding: 30px 15px;
+    }
+    .main .paragraph{
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(81,81,81);
+        letter-spacing: 1px;
+        text-align: center;  
+        margin-bottom: 3rem;
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6em;
+     
+    }
+    .cards{
+      /* background-color: #f1f1f1; */
+       width: 100%;
+       flex-wrap: wrap;
+       
+      
+    }
+    .card{
+        margin: 0.5rem;
+       
+        
+    }
+    .cardImg{
+        object-fit: cover;
+        width: 25rem;
+       height: 20rem;
+    
+    }
+    .cardTitle{
+        
+        color: rgb(39,39,39);
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .price{
+        color:rgb(0,61,93);
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    
+.lastsection{
+    background: #f1f1f1;
+    margin: 0rem auto;
+    height: auto;
+    width: 100%;
+    padding: 3rem 2rem; 
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90rem;
+}
+.portfolio{
+    padding: 0 15px;
+    width: 100%;
+    position: relative;  
+}
+.portfolioImg{
+    object-fit: cover;
+    width:18rem;
+   height: 12rem; 
+}
+.contactpage{
+    width: 100%;
+    padding: 0 15px;
+}
+.portfolioTitle{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.portfolioDesc{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(81,81,81);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6em;
+}
+
+.copyright{
+    color: rgb(176,176,176);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.contactpage{
+    background: rgb(0,61,93);
+    padding: 3rem;
+}
+.formTitle{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400; 
+    color: white;
+    margin-bottom: 3rem;
+}
+label{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+#name, #email, #phone{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+#massage{
+    width: 100%;
+    height: 20vh;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem; 
+}
+.submit{
+    border:2px solid white;
+    background: rgb(0,61,93);
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;    
+}
+}
